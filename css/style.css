@@ -1,0 +1,88 @@
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+main {
+    display: flex;
+}
+
+.header {
+    justify-content: center;
+    align-content: center;
+    position: sticky; 
+    top: 1em;
+    margin-top: 1em;
+    margin-bottom: 0%;
+    color: white;
+}
+
+h1 {
+    position: sticky;
+    top: 1.5em;
+    font-size: 8em;
+    padding-left: .3em;
+}
+
+table {
+    margin-top: 6em;
+    margin-left: 1em;
+}
+
+thead > tr > td{
+    font-size: 2em;
+    padding: 2.5em 0 0 0;
+    justify-content:space-evenly;
+    color: white;
+    z-index: -10;
+    margin-top: 1em;
+}
+
+td {
+    font-size: 1.11em;
+    padding: 1em .5em 1em 0;
+    color: rgb(58, 57, 57);
+}
+
+button {
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: .2vw;
+    margin-right: 1rem;
+    padding: 1em;
+    background-color: rgba(21, 91, 27, 0.72);
+    border-radius: 5px;
+    text-align: center;
+}
+
+button:hover {
+    color: #fff;
+    background-color: red;
+    transition: all .4s;
+    transform: scale(1.08);
+}
+
+#myVideo {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    background-color: rgba(0, 0, 0, 0.798);
+    opacity: .2;
+}
+
+footer {
+    font-size: 1em;
+    color: #fff;
+    justify-content: space-evenly;
+    padding: 2em;
+    background-color: rgba(0, 0, 0, 0.798);
+    opacity: .8;
+    width: 100vw;
+}
+
